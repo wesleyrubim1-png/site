@@ -22,7 +22,7 @@ export function BiographySection() {
   const { ref, isInView } = useInView({ threshold: 0.1 })
 
   return (
-    <section id="bio" ref={ref} className="px-6 md:px-16 lg:px-24 py-24 md:py-40">
+    <section id="bio" ref={ref} className="border-b border-foreground/15 px-6 py-28 md:px-16 md:py-44 lg:px-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
         {/* Text Content */}
         <div className="order-2 lg:order-1">

@@ -40,7 +40,7 @@ export function ContactSection() {
   const { ref, isInView } = useInView({ threshold: 0.2 })
 
   return (
-    <section id="contact" ref={ref} className="relative">
+    <section id="contact" ref={ref} className="relative border-b border-foreground/15">
       {/* Image Banner */}
       <div className="relative h-[50vh] min-h-[400px] overflow-hidden">
         <Image

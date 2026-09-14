@@ -27,19 +27,28 @@ export function HeroSection() {
             {t("hero.eyebrow")}
           </p>
           <p className="hidden text-right text-[9px] uppercase leading-[1.7] tracking-[0.28em] text-foreground/65 md:block">
-            Paris / São Paulo<br />2026 — Issue 01
+            2026 — Issue 01<br />Invisible Lights
           </p>
         </div>
 
         <div className="max-w-[680px] pb-4 lg:pb-0">
           <p className="mb-5 text-[9px] uppercase tracking-[0.4em] text-accent">A portrait in sound</p>
-          <h1 className="font-serif text-[clamp(76px,14vw,190px)] font-light leading-[0.73] tracking-[-0.065em] text-foreground">
+          <h1 className="font-serif text-[clamp(64px,10vw,150px)] font-light leading-[0.78] tracking-[-0.06em] text-foreground">
             Wes<br /><em className="ml-[0.18em]">Rubim</em>
           </h1>
           <div className="mt-10 flex flex-col gap-7 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-[10px] uppercase tracking-[0.35em] text-foreground">Invisible Lights</p>
-              <p className="mt-3 max-w-[300px] text-[11px] leading-[1.8] tracking-wide text-foreground/65">{t("hero.desc")}</p>
+              <div className="mt-5 max-w-[360px] space-y-5 border-l border-foreground/40 pl-4">
+                <figure>
+                  <blockquote className="font-serif text-[15px] leading-[1.35] text-foreground/85">“{t("hero.quote1")}"</blockquote>
+                  <figcaption className="mt-2 text-[8px] uppercase tracking-[0.2em] text-foreground/55">{t("hero.quote1.byline")}</figcaption>
+                </figure>
+                <figure>
+                  <blockquote className="font-serif text-[15px] leading-[1.35] text-foreground/85">“{t("hero.quote2")}"</blockquote>
+                  <figcaption className="mt-2 text-[8px] uppercase tracking-[0.2em] text-foreground/55">{t("hero.quote2.byline")}</figcaption>
+                </figure>
+              </div>
             </div>
             <div className="flex shrink-0 items-center gap-6">
               <a href="https://notnoise.co/link/wes-rubim-invisible_lights" target="_blank" rel="noopener noreferrer" className="border border-foreground bg-foreground px-7 py-3.5 text-[9px] uppercase tracking-[0.25em] text-background transition-colors hover:bg-accent hover:border-accent">{t("hero.listen")}</a>

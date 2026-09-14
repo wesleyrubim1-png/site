@@ -9,12 +9,12 @@ export function EPSection() {
   const { ref, isInView } = useInView({ threshold: 0.15 })
 
   return (
-    <section id="ep" ref={ref} className="relative">
+    <section id="ep" ref={ref} className="relative border-b border-foreground/15">
       {/* Transition element */}
-      <div className="h-24 md:h-32 bg-gradient-to-b from-background to-transparent relative z-10" />
+      <div className="h-32 md:h-48 bg-background relative z-10" />
       
       {/* Large Photo with Gradient Overlay */}
-      <div className="relative h-[80vh] min-h-[600px] overflow-hidden -mt-24 md:-mt-32">
+      <div className="relative h-[80vh] min-h-[600px] overflow-hidden">
         <Image
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/daniela-wesley-wed-577-NOnjrJKRQqrGIST5xvuMPoK1xnYoF4.jpg"
           alt="Wes Rubim playing trombone"

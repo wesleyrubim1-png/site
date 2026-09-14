@@ -17,11 +17,17 @@ const translations: Record<string, Record<Language, string>> = {
   "nav.contact": { en: "Contact", fr: "Contact" },
   
   // Hero
-  "hero.eyebrow": { en: "Trombonist · Composer · Paris", fr: "Tromboniste · Compositeur · Paris" },
-  "hero.desc": { 
-    en: "Brazilian jazz in dialogue with the world. A work of subtle atmospheres, emotional density, and clear artistic vision.",
-    fr: "Jazz brésilien en dialogue avec le monde. Une œuvre d'atmosphères subtiles, de densité émotionnelle et de vision artistique claire."
+  "hero.eyebrow": { en: "Trombonist · Composer · Producer", fr: "Tromboniste · Compositeur · Producteur" },
+  "hero.quote1": {
+    en: "His extraordinary instrumental skills place him amongst today’s most promising trombonists and composers.",
+    fr: "Ses compétences instrumentales extraordinaires le placent parmi les trombonistes et compositeurs les plus prometteurs d’aujourd’hui."
   },
+  "hero.quote1.byline": { en: "Luis Bonilla · Trombonist · NYC / Austria", fr: "Luis Bonilla · Tromboniste · New York / Autriche" },
+  "hero.quote2": {
+    en: "The album impresses with its musical finesse, free of gimmicks. Three words aptly describe Invisible Lights: POETIC · CATCHY · ETHERICAL.",
+    fr: "L’album impressionne par sa finesse musicale, sans artifices. Trois mots décrivent parfaitement Invisible Lights : POÉTIQUE · ACCROCHEUR · ÉTHÉRÉ."
+  },
+  "hero.quote2.byline": { en: "Eric Sommer · Radio Ella · Berlin", fr: "Eric Sommer · Radio Ella · Berlin" },
   "hero.listen": { en: "Listen Now", fr: "Écouter" },
   "hero.discover": { en: "Discover", fr: "Découvrir" },
   "hero.scroll": { en: "Scroll", fr: "Défiler" },
