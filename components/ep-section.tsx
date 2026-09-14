@@ -9,15 +9,15 @@ export function EPSection() {
   const { ref, isInView } = useInView({ threshold: 0.15 })
 
   return (
-    <section id="ep" ref={ref} className="relative">
+    <section id="ep" ref={ref} className="relative border-b border-foreground/15">
       {/* Transition element */}
-      <div className="h-24 md:h-32 bg-gradient-to-b from-background to-transparent relative z-10" />
+      <div className="h-32 md:h-48 bg-background relative z-10" />
       
       {/* Large Photo with Gradient Overlay */}
-      <div className="relative h-[80vh] min-h-[600px] overflow-hidden -mt-24 md:-mt-32">
+      <div className="relative h-[80vh] min-h-[600px] overflow-hidden">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/daniela-wesley-wed-577-NOnjrJKRQqrGIST5xvuMPoK1xnYoF4.jpg"
-          alt="Wes Rubim playing trombone"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/P1020522%202-u9VruvuK6ekDEQXrXYqkrxe49Uqh5S.jpg"
+          alt="Wes Rubim standing on railway tracks"
           fill
           className="object-cover object-center"
         />
@@ -45,14 +45,25 @@ export function EPSection() {
       <div className="px-6 md:px-16 lg:px-24 py-20 md:py-32 bg-background">
         <div className="max-w-4xl">
           {/* Quote */}
-          <blockquote className={`font-serif text-xl md:text-2xl lg:text-3xl leading-relaxed text-foreground/90 mb-12 transition-all duration-700 delay-300 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            {t("ep.quote")}
-          </blockquote>
-          
-          {/* Description */}
-          <p className={`text-base md:text-lg leading-relaxed text-muted-foreground mb-12 max-w-2xl transition-all duration-700 delay-400 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            {t("ep.description")}
+          <p className={`mb-8 text-[10px] uppercase tracking-[0.25em] text-accent transition-all duration-700 delay-300 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            {t("ep.releaseDate")} · {t("ep.labelName")}
           </p>
+          <div className={`mb-12 grid gap-10 md:grid-cols-[1.1fr_0.9fr] transition-all duration-700 delay-400 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            <div className="space-y-5 border-l border-foreground/30 pl-5">
+              <figure>
+                <blockquote className="font-serif text-xl leading-[1.3] text-foreground/90">“{t("hero.quote1")}"</blockquote>
+                <figcaption className="mt-3 text-[8px] uppercase tracking-[0.2em] text-muted-foreground">{t("hero.quote1.byline")}</figcaption>
+              </figure>
+              <figure>
+                <blockquote className="font-serif text-xl leading-[1.3] text-foreground/90">“{t("hero.quote2")}"</blockquote>
+                <figcaption className="mt-3 text-[8px] uppercase tracking-[0.2em] text-muted-foreground">{t("hero.quote2.byline")}</figcaption>
+              </figure>
+            </div>
+            <div className="space-y-5 text-[15px] leading-[1.75] text-muted-foreground">
+              <p>{t("ep.body1")}</p>
+              <p>{t("ep.body2")}</p>
+            </div>
+          </div>
           
           {/* CTA */}
           <a 

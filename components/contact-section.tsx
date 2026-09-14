@@ -13,12 +13,7 @@ const contactItems = [
   { 
     labelKey: "contact.phone", 
     value: "+33 06 52 03 96 88", 
-    href: "tel:+33065203968" 
-  },
-  { 
-    labelKey: "contact.whatsapp", 
-    value: "+49 172 267 4418", 
-    href: "https://wa.me/491722674418" 
+    href: "tel:+330652039688" 
   },
 ]
 
@@ -45,7 +40,7 @@ export function ContactSection() {
   const { ref, isInView } = useInView({ threshold: 0.2 })
 
   return (
-    <section id="contact" ref={ref} className="relative">
+    <section id="contact" ref={ref} className="relative border-b border-foreground/15">
       {/* Image Banner */}
       <div className="relative h-[50vh] min-h-[400px] overflow-hidden">
         <Image

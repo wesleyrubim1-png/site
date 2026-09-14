@@ -17,11 +17,17 @@ const translations: Record<string, Record<Language, string>> = {
   "nav.contact": { en: "Contact", fr: "Contact" },
   
   // Hero
-  "hero.eyebrow": { en: "Trombonist · Composer · Paris", fr: "Tromboniste · Compositeur · Paris" },
-  "hero.desc": { 
-    en: "Brazilian jazz in dialogue with the world. A work of subtle atmospheres, emotional density, and clear artistic vision.",
-    fr: "Jazz brésilien en dialogue avec le monde. Une œuvre d'atmosphères subtiles, de densité émotionnelle et de vision artistique claire."
+  "hero.eyebrow": { en: "Trombonist · Composer · Producer", fr: "Tromboniste · Compositeur · Producteur" },
+  "hero.quote1": {
+    en: "His extraordinary instrumental skills place him amongst today’s most promising trombonists and composers.",
+    fr: "Ses compétences instrumentales extraordinaires le placent parmi les trombonistes et compositeurs les plus prometteurs d’aujourd’hui."
   },
+  "hero.quote1.byline": { en: "Luis Bonilla · Trombonist · NYC / Austria", fr: "Luis Bonilla · Tromboniste · New York / Autriche" },
+  "hero.quote2": {
+    en: "The album impresses with its musical finesse, free of gimmicks. Three words aptly describe Invisible Lights: POETIC · CATCHY · ETHERICAL.",
+    fr: "L’album impressionne par sa finesse musicale, sans artifices. Trois mots décrivent parfaitement Invisible Lights : POÉTIQUE · ACCROCHEUR · ÉTHÉRÉ."
+  },
+  "hero.quote2.byline": { en: "Eric Sommer · Radio Ella · Berlin", fr: "Eric Sommer · Radio Ella · Berlin" },
   "hero.listen": { en: "Listen Now", fr: "Écouter" },
   "hero.discover": { en: "Discover", fr: "Découvrir" },
   "hero.scroll": { en: "Scroll", fr: "Défiler" },
@@ -29,10 +35,8 @@ const translations: Record<string, Record<Language, string>> = {
   // EP Section
   "ep.label": { en: "New Release — January 14, 2026", fr: "Nouvelle Sortie — 14 Janvier 2026" },
   "ep.release": { en: "Jazz Family · Distributed by Idol", fr: "Jazz Family · Distribué par Idol" },
-  "ep.quote": {
-    en: "\"Invisible Lights evokes the idea that everyone carries a unique light within them. An inner brightness, sometimes subtle, sometimes dazzling, but always unique. This album is a way of paying tribute to these lights that shape us, guide us, and reveal what makes us unique.\"",
-    fr: "« Invisible Lights évoque cette idée que chacun porte en soi une lumière singulière. Une clarté intérieure, parfois discrète, parfois éclatante, mais toujours unique. Cet album est une manière de rendre hommage à ces lumières qui nous façonnent, nous guident et révèlent ce que nous avons d'unique. »"
-  },
+  "ep.releaseDate": { en: "Released January 2026", fr: "Sorti en janvier 2026" },
+  "ep.labelName": { en: "on the label Jazz Family", fr: "sur le label Jazz Family" },
   "ep.description": {
     en: "The blend of rhythmic Brazilian folklore and European jazz gave rise to this EP, where Wes pays tribute to his Brazilian roots, classical music, and Nordic jazz — creating a unique fusion that characterizes his style and musical universe.",
     fr: "Le mélange du folklore rythmé brésilien et du jazz européen a donné naissance à cet EP, où Wes rend hommage à ses racines brésiliennes, à la musique classique et au jazz nordique — créant une fusion unique qui caractérise son style et son univers musical."
@@ -69,16 +73,20 @@ const translations: Record<string, Record<Language, string>> = {
   "bio.title1": { en: "A Voice in", fr: "Une Voix du" },
   "bio.title2": { en: "Contemporary Jazz", fr: "Jazz Contemporain" },
   "bio.text1": {
-    en: "Wes Rubim is a Brazilian trombonist and composer active in the field of contemporary jazz, with a musical approach that combines improvisation, composition, and elements of Brazilian music. His work is based on attentive listening and an authorial approach centered on spirituality, contemplation, and the creation of soundscapes.",
-    fr: "Wes Rubim est tromboniste et compositeur brésilien, actif dans le champ du jazz contemporain, avec une recherche musicale qui articule improvisation, composition et éléments de la musique brésilienne. Son travail se développe à partir d'une écoute attentive et d'une approche autorale, centrée sur la spiritualité, la contemplation et la construction d'atmosphères sonores."
+    en: "Wes Rubim is a Brazilian trombonist, composer and producer based in Paris, working at the intersection of contemporary jazz, Brazilian rhythm and electronic texture.",
+    fr: "Wes Rubim est tromboniste, compositeur et producteur brésilien basé à Paris, travaillant à l’intersection du jazz contemporain, du rythme brésilien et des textures électroniques."
   },
   "bio.text2": {
-    en: "He began his training in Brazil in classical trombone and subsequently furthered his studies in jazz at the Jazz Institut Berlin (UdK), where he consolidated a hybrid language between tradition and experimentation.",
-    fr: "Il a commencé sa formation au Brésil en trombone classique et, par la suite, approfondi ses études en jazz au Jazz Institut Berlin (UdK), où il a consolidé un langage hybride entre tradition et expérimentation."
+    en: "He began his training in Brazil on classical trombone before redirecting his path toward jazz. Spotted early by Luis Bonilla, he was invited to continue his studies in Austria and Germany, later consolidating a hybrid language between tradition and experimentation at the Jazz Institut Berlin (UdK Berlin).",
+    fr: "Il a commencé sa formation au Brésil au trombone classique avant de s’orienter vers le jazz. Repéré très tôt par Luis Bonilla, il a été invité à poursuivre ses études en Autriche et en Allemagne, avant de consolider un langage hybride entre tradition et expérimentation au Jazz Institut Berlin (UdK Berlin)."
   },
   "bio.text3": {
-    en: "Currently based in Paris, Wes Rubim is active on the European scene through personal projects and various collaborations, navigating between instrumental music, improvisation, and larger-scale productions.",
-    fr: "Actuellement basé à Paris, Wes Rubim agit sur la scène européenne à travers des projets personnels et diverses collaborations, naviguant entre musique instrumentale, improvisée et productions de plus grande envergure."
+    en: "Over the course of his career he has shared the stage with artists such as Andrea Bocelli, Randy Brecker, Jim McNeely, Hamilton Godoy, Guinga and Gabriel Grossi, and has appeared as a guest artist with the Deutsche Oper Berlin.",
+    fr: "Au cours de sa carrière, il a partagé la scène avec des artistes tels qu’Andrea Bocelli, Randy Brecker, Jim McNeely, Hamilton Godoy, Guinga et Gabriel Grossi, et s’est produit comme artiste invité avec la Deutsche Oper Berlin."
+  },
+  "bio.text4": {
+    en: "This blend of Brazilian rhythmic folklore and European jazz gave rise to his debut EP, Invisible Lights, released on the Jazz Family label — a project in which Wes pays tribute to his Brazilian roots, his classical training and Nordic jazz, creating a fusion that defines his sound and artistic universe today.",
+    fr: "Ce mélange de folklore rythmique brésilien et de jazz européen a donné naissance à son premier EP, Invisible Lights, sorti sur le label Jazz Family — un projet dans lequel Wes rend hommage à ses racines brésiliennes, à sa formation classique et au jazz nordique, créant une fusion qui définit aujourd’hui son son et son univers artistique."
   },
   "bio.collab": { en: "Collaborations", fr: "Collaborations" },
   

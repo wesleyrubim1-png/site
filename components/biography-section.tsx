@@ -6,13 +6,15 @@ import { useInView } from "@/hooks/use-in-view"
 
 const collaborations = [
   "Randy Brecker",
-  "Jim McNeely",
-  "Deutsche Oper Berlin",
   "Andrea Bocelli",
+  "Jim McNeely",
   "Guinga",
-  "Lea Freire",
+  "Vanessa Moreno",
   "Gabriel Grossi",
   "Hamilton Godoy",
+  "Nailor Proveta",
+  "Lea Freire",
+  "Deutsche Oper Berlin",
 ]
 
 export function BiographySection() {
@@ -20,7 +22,7 @@ export function BiographySection() {
   const { ref, isInView } = useInView({ threshold: 0.1 })
 
   return (
-    <section id="bio" ref={ref} className="px-6 md:px-16 lg:px-24 py-24 md:py-40">
+    <section id="bio" ref={ref} className="border-b border-foreground/15 px-6 py-28 md:px-16 md:py-44 lg:px-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
         {/* Text Content */}
         <div className="order-2 lg:order-1">
@@ -37,6 +39,7 @@ export function BiographySection() {
             <p>{t("bio.text1")}</p>
             <p>{t("bio.text2")}</p>
             <p>{t("bio.text3")}</p>
+            <p>{t("bio.text4")}</p>
           </div>
 
           {/* Collaborations */}
@@ -54,8 +57,8 @@ export function BiographySection() {
         <div className={`order-1 lg:order-2 lg:sticky lg:top-32 h-fit transition-all duration-700 delay-400 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="aspect-[3/4] relative overflow-hidden group">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_0477.JPG-zUE7hfm6stZaYH92oV2ICe3eMLEMNw.jpeg"
-              alt="Wes Rubim portrait"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Portrait-RiCunlibniuFQ5ZpiWhikVWH8uf0AT.jpg"
+              alt="Wes Rubim smiling portrait"
               fill
               className="object-cover object-top grayscale-[15%] transition-all duration-700 group-hover:scale-[1.03]"
             />

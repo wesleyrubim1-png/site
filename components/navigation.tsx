@@ -7,7 +7,7 @@ export function Navigation() {
   const { language, setLanguage, t } = useLanguage()
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-8 md:px-12 flex items-center justify-between">
+    <nav className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-foreground/10 bg-background/85 px-6 py-5 backdrop-blur-md md:px-12">
       <a 
         href="#hero" 
         className="font-sans text-[10px] tracking-[0.35em] font-normal uppercase text-foreground hover:opacity-50 transition-opacity"

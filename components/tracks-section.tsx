@@ -16,7 +16,7 @@ export function TracksSection() {
   const { ref: sectionRef, isInView } = useInView({ threshold: 0.1 })
 
   return (
-    <section ref={sectionRef} className="bg-foreground text-background px-6 md:px-12 py-24 md:py-32">
+    <section ref={sectionRef} className="border-y border-background/20 bg-foreground px-6 py-28 text-background md:px-12 md:py-40">
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20">
         {/* Album Info */}
         <div>
