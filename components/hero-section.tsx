@@ -21,40 +21,12 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#e9e5df] via-[#e9e5df]/20 to-transparent lg:via-transparent" />
       </div>
 
-      <div className="relative z-10 flex min-h-screen flex-col justify-between px-6 pb-10 pt-28 md:px-12 md:pb-14 lg:px-16">
-        <div className="flex items-start justify-between gap-8">
-          <p className="max-w-[180px] text-[9px] uppercase leading-[1.7] tracking-[0.28em] text-foreground/65">
-            {t("hero.eyebrow")}
-          </p>
-          <p className="hidden text-right text-[9px] uppercase leading-[1.7] tracking-[0.28em] text-foreground/65 md:block">
-            2026 — Issue 01<br />Invisible Lights
-          </p>
-        </div>
-
-        <div className="max-w-[680px] pb-4 lg:pb-0">
-          <p className="mb-5 text-[9px] uppercase tracking-[0.4em] text-accent">A portrait in sound</p>
+      <div className="relative z-10 flex min-h-screen flex-col justify-end px-6 pb-14 pt-28 md:px-12 md:pb-20 lg:px-16">
+        <div className="max-w-[720px]">
           <h1 className="font-serif text-[clamp(64px,10vw,150px)] font-light leading-[0.78] tracking-[-0.06em] text-foreground">
             Wes<br /><em className="ml-[0.18em]">Rubim</em>
           </h1>
-          <div className="mt-10 flex flex-col gap-7 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p className="text-[10px] uppercase tracking-[0.35em] text-foreground">Invisible Lights</p>
-              <div className="mt-5 max-w-[360px] space-y-5 border-l border-foreground/40 pl-4">
-                <figure>
-                  <blockquote className="font-serif text-[15px] leading-[1.35] text-foreground/85">“{t("hero.quote1")}"</blockquote>
-                  <figcaption className="mt-2 text-[8px] uppercase tracking-[0.2em] text-foreground/55">{t("hero.quote1.byline")}</figcaption>
-                </figure>
-                <figure>
-                  <blockquote className="font-serif text-[15px] leading-[1.35] text-foreground/85">“{t("hero.quote2")}"</blockquote>
-                  <figcaption className="mt-2 text-[8px] uppercase tracking-[0.2em] text-foreground/55">{t("hero.quote2.byline")}</figcaption>
-                </figure>
-              </div>
-            </div>
-            <div className="flex shrink-0 items-center gap-6">
-              <a href="https://notnoise.co/link/wes-rubim-invisible_lights" target="_blank" rel="noopener noreferrer" className="border border-foreground bg-foreground px-7 py-3.5 text-[9px] uppercase tracking-[0.25em] text-background transition-colors hover:bg-accent hover:border-accent">{t("hero.listen")}</a>
-              <a href="#bio" className="text-[9px] uppercase tracking-[0.25em] text-foreground/65 transition-colors hover:text-accent">{t("hero.discover")}</a>
-            </div>
-          </div>
+          <p className="mt-8 text-[10px] uppercase tracking-[0.35em] text-foreground">{t("hero.eyebrow")}</p>
         </div>
       </div>
 
