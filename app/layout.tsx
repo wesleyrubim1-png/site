@@ -18,11 +18,11 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: 'Wes Rubim — Invisible Lights',
-  description: 'Brazilian trombonist and composer. Contemporary Brazilian jazz in dialogue with the world.',
+  description: 'Wes Rubim is a Brazilian trombonist and composer. Invisible Lights — contemporary Brazilian jazz in dialogue with the world.',
   keywords: ['Wes Rubim', 'trombone', 'jazz', 'Brazilian jazz', 'composer', 'Paris', 'Invisible Lights'],
   openGraph: {
     title: 'Wes Rubim — Invisible Lights',
-    description: 'Brazilian trombonist and composer. Contemporary Brazilian jazz in dialogue with the world.',
+    description: 'Wes Rubim is a Brazilian trombonist and composer. Invisible Lights — contemporary Brazilian jazz in dialogue with the world.',
     type: 'website',
   },
 }

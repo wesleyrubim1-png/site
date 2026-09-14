@@ -15,11 +15,6 @@ const contactItems = [
     value: "+33 06 52 03 96 88", 
     href: "tel:+330652039688" 
   },
-  { 
-    labelKey: "contact.whatsapp", 
-    value: "+49 172 267 4418", 
-    href: "https://wa.me/491722674418" 
-  },
 ]
 
 const socialLinks = [
