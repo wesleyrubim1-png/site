@@ -6,13 +6,15 @@ import { useInView } from "@/hooks/use-in-view"
 
 const collaborations = [
   "Randy Brecker",
-  "Jim McNeely",
-  "Deutsche Oper Berlin",
   "Andrea Bocelli",
+  "Jim McNeely",
   "Guinga",
-  "Lea Freire",
+  "Vanessa Moreno",
   "Gabriel Grossi",
   "Hamilton Godoy",
+  "Nailor Proveta",
+  "Lea Freire",
+  "Deutsche Oper Berlin",
 ]
 
 export function BiographySection() {

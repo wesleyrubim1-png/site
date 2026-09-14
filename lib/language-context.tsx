@@ -29,10 +29,6 @@ const translations: Record<string, Record<Language, string>> = {
   // EP Section
   "ep.label": { en: "New Release — January 14, 2026", fr: "Nouvelle Sortie — 14 Janvier 2026" },
   "ep.release": { en: "Jazz Family · Distributed by Idol", fr: "Jazz Family · Distribué par Idol" },
-  "ep.quote": {
-    en: "\"Invisible Lights evokes the idea that everyone carries a unique light within them. An inner brightness, sometimes subtle, sometimes dazzling, but always unique. This album is a way of paying tribute to these lights that shape us, guide us, and reveal what makes us unique.\"",
-    fr: "« Invisible Lights évoque cette idée que chacun porte en soi une lumière singulière. Une clarté intérieure, parfois discrète, parfois éclatante, mais toujours unique. Cet album est une manière de rendre hommage à ces lumières qui nous façonnent, nous guident et révèlent ce que nous avons d'unique. »"
-  },
   "ep.description": {
     en: "The blend of rhythmic Brazilian folklore and European jazz gave rise to this EP, where Wes pays tribute to his Brazilian roots, classical music, and Nordic jazz — creating a unique fusion that characterizes his style and musical universe.",
     fr: "Le mélange du folklore rythmé brésilien et du jazz européen a donné naissance à cet EP, où Wes rend hommage à ses racines brésiliennes, à la musique classique et au jazz nordique — créant une fusion unique qui caractérise son style et son univers musical."
